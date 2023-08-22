@@ -17,4 +17,4 @@ driver.find_element(By.XPATH, '//*[@id="top-bar"]/div/nav/div/ul/li[1]/div/ul/li
 time.sleep(1)
 search = driver.find_elements(By.TAG_NAME, 'body') #일치하는 모든 요소들 가져오기
 for e in search: #모든 요소 리스트에서 각 요소 가져오기
-    print(e.text) #왜죠
+    print(e.text) #text: 셀레니움 정보 여러 요소중에 텍스트만 가져옴
